@@ -35,8 +35,7 @@ plugins:
   - jekyll-feed
 
 # Theme settings
-# theme               : minima # Default fallback theme.
-ignore_theme_config : true
+locale: de     #translations are at: _data\ui-text.yml
 
 # Where things are
 source              : .

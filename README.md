@@ -33,3 +33,4 @@ More info:  https://jekyllrb.com/docs/installation/windows
 1) To contribute to this project you need to understand what git is: https://www.youtube.com/watch?v=MgnRFZJ7M2s
 1) you need a git client: https://git-scm.com/book/de/v2/Erste-Schritte-Git-installieren or https://desktop.github.com/
 1) if you had cloned the repository (see here under installation) you can make an change in the files and commit it to the repo
+1) For easy internationalisation should all UI texts only resides in: _data\ui-text.yml
