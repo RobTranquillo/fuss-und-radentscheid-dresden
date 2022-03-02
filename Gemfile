@@ -34,3 +34,6 @@ gem "webrick", "~> 1.7"
 # Required to fix Livereload for local development
 # See: https://robbinespu.gitlab.io/posts/jekyll-unable-load-eventmachine
 gem "eventmachine", "1.2.7", git: "https://github.com/eventmachine/eventmachine.git", tag: "v1.2.7"
+
+# our jekyll theme
+gem "minimal-mistakes-jekyll"
