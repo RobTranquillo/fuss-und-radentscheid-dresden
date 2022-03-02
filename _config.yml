@@ -132,7 +132,7 @@ detach              : false # Detach the server from the terminal.
 port                : 4000 # Listen on the given port. The default is `4000`.
 host                : 127.0.0.1 # Listen at the given hostname. The default is `localhost`.
 show_dir_listing    : false # Show a directory listing instead of loading your index file.
-open_url            : true # Open the site's URL in the browser.
+# open_url            : true # Open the site's URL in the browser.
 force_polling       : false # Forces liquid during watching to use the polling architecture rather than inotify.
 livereload          : true # Reload a page automatically on the browser when its content is edited.
 livereload_ignore   : [] # File glob patterns for LiveReload to ignore.
