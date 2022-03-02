@@ -34,3 +34,11 @@ More info:  https://jekyllrb.com/docs/installation/windows
 1) you need a git client: https://git-scm.com/book/de/v2/Erste-Schritte-Git-installieren or https://desktop.github.com/
 1) if you had cloned the repository (see here under installation) you can make an change in the files and commit it to the repo
 1) For easy internationalisation should all UI texts only resides in: _data\ui-text.yml
+
+My recommendation for use is https://code.visualstudio.com/ with the following extensions:
+- https://github.com/gitkraken/vscode-gitlens
+- https://github.com/enyancc/vscode-ext-color-highlight
+- https://github.com/panoply/vscode-liquid
+- https://github.com/TheRealSyler/vscode-sass-indented
+- https://github.com/TheRealSyler/vscode-sass-indented
+All are not mandatory but make it much more pleasant to work.
