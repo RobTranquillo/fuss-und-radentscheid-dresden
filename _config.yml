@@ -31,6 +31,8 @@ url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. 
 
 # Build settings
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: _fussradentscheid
+logo: assets\images\logo.png
 plugins:
   - jekyll-feed
 
