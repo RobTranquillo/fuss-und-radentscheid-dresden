@@ -44,6 +44,11 @@ My recommendation for use is https://code.visualstudio.com/ with the following e
 All are not mandatory but make it much more pleasant to work.
 
 # Anpassung
+## Inhalt
+
+Wie bei Lego werden bei Jekyll + minimal-mistakes Seiten meistens auf vielen vorhandenen Bausteinen einfach zusammen gesetzt.
+MMistakes bietet dafür schon die gängisten Seitenlayouts inclusive der wichtigsten Funktionen leist zu nutzen an:
+https://mmistakes.github.io/minimal-mistakes/docs/layouts/
 
 ## Design
 
@@ -56,7 +61,3 @@ Alle Bilder befinden sich im Ordner `assets/images` sowie alle Javascript Dateie
 Mehr Informationen finden sich hier:
 - https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/
 - https://mmistakes.github.io/minimal-mistakes/docs/javascript/
-
-## Inhalt
-
-https://mmistakes.github.io/minimal-mistakes/docs/layouts/
