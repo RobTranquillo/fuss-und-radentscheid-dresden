@@ -42,3 +42,21 @@ My recommendation for use is https://code.visualstudio.com/ with the following e
 - https://github.com/TheRealSyler/vscode-sass-indented
 - https://github.com/TheRealSyler/vscode-sass-indented
 All are not mandatory but make it much more pleasant to work.
+
+# Anpassung
+
+## Design
+
+Alle CSS Änderungen fangen in der Datei `_sass\minimal-mistakes.scss` an. In dieser werden alle Dateien des Unterordners `_sass\minimal-mistakes` eingebunden. In diesen können alle Änderungen vor genommen werden. Weitere Dateien können erzeugt und in der `minimal-mistakes.scss` eingefügt werden.
+
+Wir verwenden einen eigenen Color-Skin diese befindet sich hier `_sass\minimal-mistakes\skins\_fussradentscheid.scss`.
+
+Alle Bilder befinden sich im Ordner `assets/images` sowie alle Javascript Dateien in `assets/js`
+
+Mehr Informationen finden sich hier:
+- https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/
+- https://mmistakes.github.io/minimal-mistakes/docs/javascript/
+
+## Inhalt
+
+https://mmistakes.github.io/minimal-mistakes/docs/layouts/
