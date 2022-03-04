@@ -8,7 +8,9 @@ last_modified_at:  3213213
 header:
   # image: /assets/images/home/header.jpg
   overlay_image: /assets/images/home/header.jpg
-  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_filter: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3))
+  # optional inject more css classe into the header
+  classes: text-center
 
   image_description: "Belebter Blick vom Dresdner Rosengarten auf die Elbe und Albertbrücke"
   caption: "Photo credit: [**FuREdd**](https://fuss-und-radentscheid-dresden.de/)"
