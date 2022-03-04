@@ -1,12 +1,23 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# splash layout. Alle optionen siehe hier: https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout
+layout: splash
+title: "Einfache und sichere Mobilität für alle"
+# excerpt: "zweiter Überschrift möglich"
+date: 3124234324
+last_modified_at:  3213213
+header:
+  # image: /assets/images/home/header.jpg
+  overlay_image: /assets/images/home/header.jpg
+  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
 
-layout: page
+  image_description: "Belebter Blick vom Dresdner Rosengarten auf die Elbe und Albertbrücke"
+  caption: "Photo credit: [**FuREdd**](https://fuss-und-radentscheid-dresden.de/)"
+  actions:
+    - label: "Jetzt Mitmachen"
+      url: "/mitmachen"
+
+# aller Seiteninhalt befindet sich auf leicht konfigurierbaren
+# Karten im Ordner _cards im Unterordner der mit der folgenden
+# Variable angegeben wird. Also zB. _cards/home
+cards: home
 ---
-
-
-
-Der Entscheid für eine klimagerechte, verkehrssichere Stadt mit hoher Lebensqualität.
-
-Für ein lebenswertes, kinderfreundliches und klimagerechtes Dresden braucht es eine bessere Infrastruktur für Radfahrende und Fußgänger:innen. Der für eine zukunftsfähige Stadt notwendige Ausbau und die Verbesserungen erfolgen aktuell viel zu langsam und zu wenig. Nach dem Vorbild von über 40 deutschen Radentscheiden planen wir deshalb einen Bürgerentscheid, um die Stadt Dresden jetzt zum ganzheitlichen Handeln aufzufordern!
