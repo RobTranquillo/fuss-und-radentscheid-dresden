@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   für Radfahrende und Fußgänger:innen. Der für eine zukunftsfähige Stadt notwendige Ausbau und die Verbesserungen
   erfolgen aktuell viel zu langsam und zu wenig. Nach dem Vorbild von über 40 deutschen Radentscheiden planen
   wir deshalb einen Bürgerentscheid, um die Stadt Dresden jetzt zum ganzheitlichen Handeln aufzufordern!
+url: "https://robtranquillo.github.io/fuss-und-radentscheid-dresden" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 repository: "RobTranquillo/fuss-und-radentscheid-dresden"
