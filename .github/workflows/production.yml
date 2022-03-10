@@ -1,0 +1,53 @@
+# GitHub Actions Jekyll production workflow
+#
+# Version : 1.0.0
+# Author  : Vivien Richter <vivien-richter@outlook.de>
+# License : CC-BY-4.0
+name: Production
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  main:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 📥
+        uses: actions/checkout@v2.3.4
+        with:
+          lfs: true
+          fetch-depth: 1
+
+      - name: Project name 📝
+        run: echo "PROJECT_NAME=$(jq -r '.repository.name' < $GITHUB_EVENT_PATH)" >> $GITHUB_ENV
+
+      - name: Branch name 📝
+        run: echo "BRANCH=${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Gems Caching 🗄️
+        uses: actions/cache@v2.1.6
+        with:
+          path: vendor
+          key: vendor-${{ env.PROJECT_NAME }}-${{ env.BRANCH }}-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: |
+            vendor-${{ env.PROJECT_NAME }}-${{ env.BRANCH }}-
+            vendor-${{ env.PROJECT_NAME }}-
+            vendor-
+
+      - name: Jekyll Caching 🗄️
+        uses: actions/cache@v2.1.6
+        with:
+          path: .jekyll-cache
+          key: .jekyll-cache-${{ env.PROJECT_NAME }}-${{ env.BRANCH }}
+          restore-keys: |
+            .jekyll-cache-${{ env.PROJECT_NAME }}-
+            .jekyll-cache-
+
+      - name: Build ⚙️
+        uses: vivi90/jekyll-minimal-action@v1.1.0
+        with:
+          command: env JEKYLL_LOG_LEVEL=info JEKYLL_ENV=production jekyll build --config _config.yml,_config-override-production.yml
