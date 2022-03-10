@@ -1,0 +1,52 @@
+# Welcome to Jekyll!
+#
+# This config file is an partial override for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+# Site settings
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+url                 : "https://robtranquillo.github.io/fuss-und-radentscheid-dresden" # The base hostname & protocol for your site, e.g. http://example.com
+baseurl             : "/" # The subpath of your site, e.g. '/blog' (does not include the hostname).
+
+# Sass configuration
+sass:
+  style             : compressed # The style of the CSS-output (Possible values: 'expanded', 'nested', 'compact', or 'compressed').
+  line_comments     : false # Include the line number and filename of the source in the compiled CSS-file.
+  sourcemap         : never # Controls when source maps shall be generated (Possible values: 'never', 'always' or 'development').
+
+# Handling Reading
+strict_front_matter : false # Cause a build to fail if there is a YAML syntax error in a page's front matter.
+
+# Filtering Content
+show_drafts         : false # Process and render draft posts.
+limit_posts         : 0 # Limit the number of posts to parse and publish.
+future              : false # Publish posts or collection documents with a future date.
+unpublished         : false # Render posts that were marked as unpublished.
+
+# Serving settings
+open_url            : false # Open the site's URL in the browser.
+livereload          : false # Reload a page automatically on the browser when its content is edited.
+profile             : false # Generate a Liquid rendering profile to help you identify performance bottlenecks.
+
+# Output settings
+verbose             : false # Print verbose output.
+
+# Liquid settings
+liquid:
+  error_mode        : lax # Response to errors (Possible values: 'lax', 'warn' or 'strict').
+  strict_filters    : false # Catch non-existing filters.
+  strict_variables  : false # Catch non-assigned variables.
+
+# Markdown Processors
+kramdown:
+  show_warnings     : false
