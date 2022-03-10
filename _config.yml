@@ -18,16 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fuss und Radentscheid Dresden
-email: kontakt@furedd.de
-description: >- # this means to ignore newlines until "baseurl:"
+title               : Fuss und Radentscheid Dresden
+email               : kontakt@furedd.de
+description         : >- # this means to ignore newlines until "baseurl:"
   Der Entscheid für eine klimagerechte, verkehrssichere Stadt mit hoher Lebensqualität.
   Für ein lebenswertes, kinderfreundliches und klimagerechtes Dresden braucht es eine bessere Infrastruktur
   für Radfahrende und Fußgänger:innen. Der für eine zukunftsfähige Stadt notwendige Ausbau und die Verbesserungen
   erfolgen aktuell viel zu langsam und zu wenig. Nach dem Vorbild von über 40 deutschen Radentscheiden planen
   wir deshalb einen Bürgerentscheid, um die Stadt Dresden jetzt zum ganzheitlichen Handeln aufzufordern!
-url: "https://robtranquillo.github.io/fuss-und-radentscheid-dresden" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url                 : "https://robtranquillo.github.io" # The base hostname & protocol for your site, e.g. http://example.com
+baseurl             : "/fuss-und-radentscheid-dresden" # The subpath of your site, e.g. '/blog' (does not include the hostname).
+
 
 # Build settings
 repository: "RobTranquillo/fuss-und-radentscheid-dresden"
