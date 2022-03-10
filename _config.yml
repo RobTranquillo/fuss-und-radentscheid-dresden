@@ -30,7 +30,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minimal-mistakes-jekyll
+repository: "RobTranquillo/fuss-und-radentscheid-dresden"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: _fussradentscheid
 logo: assets\images\logo.png
 plugins:
@@ -99,10 +100,11 @@ collections:
 # Plugin settings
 whitelist           : []
 plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
 # - jekyll-github-metadata # Required for GitHub metadata (see: https://jekyll.github.io/github-metadata/site.github)
 # - jekyll-gist # Required for GitHub Gist support
 # - classifier-reborn # Required for LSI
-  - jekyll-seo-tag
 # - jekyll-paginate # Required for pagination
 # - jekyll-feed
 # - jekyll-sitemap
