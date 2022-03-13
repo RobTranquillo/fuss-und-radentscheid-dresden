@@ -81,3 +81,9 @@ Alle Bilder befinden sich im Ordner `assets/images` sowie alle Javascript Dateie
 Mehr Informationen finden sich hier:
 - https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/
 - https://mmistakes.github.io/minimal-mistakes/docs/javascript/
+
+## Navigation
+
+Die Nav-Struktur der Kopfzeile ist hier:
+
+`_data/navigation.yml`
