@@ -2,7 +2,7 @@
 # splash layout. Alle optionen siehe hier: https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout
 layout: splash
 title: "Einfache und sichere Mobilität für alle"
-# excerpt: "zweiter Überschrift möglich"
+# excerpt: "hier ist eine zweite (Sub-)Überschrift möglich"
 date: 3124234324
 last_modified_at:  3213213
 header:

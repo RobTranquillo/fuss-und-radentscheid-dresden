@@ -34,13 +34,13 @@ baseurl             : "/fuss-und-radentscheid-dresden" # The subpath of your sit
 repository: "RobTranquillo/fuss-und-radentscheid-dresden"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: _fussradentscheid
-logo: assets\images\logo.png
+logo: assets/images/logo.png
 plugins:
   - jekyll-feed
 github: [metadata]
 
 # Theme settings
-locale: de     #translations are at: _data\ui-text.yml
+locale: de     #translations are at: _data/ui-text.yml
 
 # Where things are
 source              : .
