@@ -1,12 +1,19 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Über Uns"
     url: /about/
+  - title: "Wer sind wir"
+    url: /about/
+  - title: "Kontakt"
+    url: /about/
+  - title: "Impressum"
+    url: /impress/
+  - title: "Datenschutz"
+    url: /gdpr/
+  - title: "Untestützen"
+    url: /support/
   - title: "Ziele"
     url: /ziele/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+
   # - title: "Sitemap"
   #   url: /sitemap/
