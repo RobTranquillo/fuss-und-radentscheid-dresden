@@ -2,7 +2,7 @@
 main:
   - title: "Über Uns"
     url: /about/
-  - title: "Untestützen"
+  - title: "Unterstützen"
     url: /support/
   - title: "Ziele"
     url: /goals/
@@ -20,7 +20,7 @@ content:
     url: /gdpr/
 
   # Menüpunkt-2 - Unterstützen / Spenden
-  - title: "Untestützen"
+  - title: "Unterstützen"
     url: /support/
   - title: "Mitmachen"
     url: /action/
