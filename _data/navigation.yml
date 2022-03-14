@@ -2,18 +2,54 @@
 main:
   - title: "Über Uns"
     url: /about/
+  - title: "Untestützen"
+    url: /support/
+  - title: "Ziele"
+    url: /goals/
+
+# alle Seiten der Webseite
+content:
+  # Menüpunkt-1 - Über uns
   - title: "Wer sind wir"
     url: /about/
   - title: "Kontakt"
-    url: /about/
+    url: /contact/
   - title: "Impressum"
     url: /impress/
   - title: "Datenschutz"
     url: /gdpr/
+
+  # Menüpunkt-2 - Unterstützen / Spenden
   - title: "Untestützen"
     url: /support/
+  - title: "Mitmachen"
+    url: /action/
+
+  # Menüpunkt-3 -
+  - title: "Newsletter"
+    url: /newsletter/
+  - title: "Sammelstellen"
+    url: /hotspots/
+  - title: "Unsere Vision"
+    url: /vision/
+
+  # Menüpunkt-4
+  - title: "Leichte Sprache"
+    url: /easy-language/
   - title: "Ziele"
-    url: /ziele/
+    url: /goals/
+  - title: "Piktogramme"
+    url: /pictograms/
+
+  # Menüpunkt-5
+  - title: "Aktuelles"
+    url: /news/
+  - title: "Blog"
+    url: /blog/
+  - title: "Presse"
+    url: /press/
+  - title: "Termine"
+    url: /events/
 
   # - title: "Sitemap"
   #   url: /sitemap/

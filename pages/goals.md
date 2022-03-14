@@ -1,5 +1,5 @@
 ---
-permalink: /ziele/
+permalink: /goals/
 title: "Unsere Ziele"
 layout: archive
 excerpt: "Was sind die Ziele die der Fuß- und Radentscheid erreichen will."
