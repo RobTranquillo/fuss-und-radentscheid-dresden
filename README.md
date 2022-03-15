@@ -25,7 +25,7 @@ More info:  https://jekyllrb.com/docs/installation/windows
 1) After the install finished, try jekyll -v
 1) now clone this repo in a folder of choice. For example via `git clone https://github.com/RobTranquillo/fuss-und-radentscheid-dresden.git`
 1) enter the new folder and run `bundle install`
-1) starting your live webserver with `bundle exec jekyll serve
+1) starting your live webserver with `bundle exec jekyll serve`
 1) open the page with http://127.0.0.1:4000/
 
 ## Linux
