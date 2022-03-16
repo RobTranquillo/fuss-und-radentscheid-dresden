@@ -1,11 +1,43 @@
 # main links
 main:
-  - title: "Über Uns"
-    url: /about/
+  - title: "Wer sind wir"
+    subfolderitems:
+    - title: "Über uns"
+      url: "/about/"
+    - title: "Kontakt"
+      url: "/contact/"
+    - title: "Impressum"
+      url: "/impress/"
   - title: "Unterstützen"
-    url: /support/
+    subfolderitems:
+    - title: "Spenden"
+      url: /support/
+    - title: "Mitmachen"
+      url: /action/
+  - title: "Menüpunkt"
+    subfolderitems:
+    - title: "Newsletter"
+      url: /newsletter/
+    - title: "Sammelstellen"
+      url: /hotspots/
   - title: "Ziele"
-    url: /goals/
+    subfolderitems:
+    - title: "Unsere Vision"
+      url: /vision/
+    - title: "Leichte Sprache"
+      url: /easy-language/
+    - title: "Piktogramme"
+      url: /pictograms/
+  - title: "Aktuelles"
+    subfolderitems:
+    - title: "Blog"
+      url: /blog/
+    - title: "Presse"
+      url: /press/
+    - title: "Termine"
+      url: /events/
+
+
 
 # alle Seiten der Webseite
 content:

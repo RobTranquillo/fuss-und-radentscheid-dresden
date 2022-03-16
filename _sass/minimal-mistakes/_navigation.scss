@@ -200,20 +200,10 @@
       margin-left: 0;
     }
   }
-  
+
   img{
     -webkit-transition: none;
     transition: none;
-  }
-
-  &__toggle {
-    -ms-flex-item-align: center;
-    align-self: center;
-    height: $nav-toggle-height;
-    border: 0;
-    outline: none;
-    background-color: transparent;
-    cursor: pointer;
   }
 
   .visible-links {
