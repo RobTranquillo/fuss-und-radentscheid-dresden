@@ -51,9 +51,5 @@ content:
   - title: "Termine"
     url: /events/
 
-  # Test
-  - title: "unsere Testseite"
-    url: /test/
-
   # - title: "Sitemap"
   #   url: /sitemap/
