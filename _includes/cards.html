@@ -1,0 +1,6 @@
+{% for card in site.cards %}
+
+    {% if card.page == page.cards %}
+        {{ card }}
+    {% endif %}
+{% endfor %}
