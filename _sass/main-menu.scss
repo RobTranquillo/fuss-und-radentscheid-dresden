@@ -6,9 +6,10 @@
 
 /* Giving a background-color to the nav container. */
 nav {
+	display: inline;
 	margin:0;
 	padding: 0;
-	background-color: #254441;
+	background-color: $info-color;
 
     font-size:22px;
 	line-height: 32px;
@@ -53,13 +54,17 @@ nav ul li {
 
 /* Styling the links */
 nav a {
+	background-color: $menu-background-color;
+	color: $menu-text-color;
 	display:block;
 	padding:14px 20px;
-	color:#FFF;
 	font-size:17px;
 	text-decoration:none;
 }
 
+nav a:hover {
+	color: $menu-text-color;
+}
 
 nav ul li ul li:hover
 {
@@ -105,10 +110,6 @@ nav ul ul ul li {
 }
 
 
-/* Change ' +' in order to change the Dropdown symbol */
-li > a:only-child:after { content: ''; }
-
-
 /* Media Queries
 --------------------------------------------- */
 
@@ -116,14 +117,27 @@ li > a:only-child:after { content: ''; }
 
 	nav {
 		margin: 0;
+		display: block;
+
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	.menu label {
+		margin-bottom: 0;
 	}
 
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #254441;
-		padding:14px 20px;
-		color:#FFF;
+		color: $menu-text-color;
+		background-color: $menu-background-color;
+		padding:7px 10px;
 		font-size:17px;
 		text-decoration:none;
 		border:none;
@@ -169,7 +183,7 @@ li > a:only-child:after { content: ''; }
 
 	nav ul li ul li .toggle,
 	nav ul ul a {
-		background-color: #212121;
+		background-color: mix(#fff, $sub-menu-background-color, 50%);
 	}
 
 	/* Hide Dropdowns by Default */

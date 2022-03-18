@@ -3,31 +3,37 @@
    ========================================================================== */
 
 /* Colors */
-$gray                       : #1976d2 !default;
-$dark-gray                  : mix(#000, $gray, 40%) !default;
-$darker-gray                : mix(#000, $gray, 60%) !default;
-$light-gray                 : mix(#fff, $gray, 50%) !default;
-$lighter-gray               : mix(#fff, $gray, 90%) !default;
+$base                       : #1976d2 !default;
+$dark-base                  : mix(#000, $base, 40%) !default;
+$darker-base                : mix(#000, $base, 60%) !default;
+$light-base                 : mix(#fff, $base, 50%) !default;
+$lighter-base               : mix(#fff, $base, 90%) !default;
 
-$body-color                 : #fff !default;
-$background-color           : #f0fff0 !default;
-$code-background-color      : $lighter-gray !default;
-$code-background-color-dark : $light-gray !default;
-$text-color                 : $dark-gray !default;
-$border-color               : $lighter-gray !default;
-
-$primary-color              : $gray !default;
+$primary-color              : $base !default;
 $success-color              : #27ae60 !default;
 $warning-color              : #e67e22 !default;
 $danger-color               : #c0392b !default;
 $info-color                 : #03a9f4 !default;
 
+$body-color                 : #fff !default;
+$background-color           : #f0fff0 !default;
+$code-background-color      : $lighter-base !default;
+$code-background-color-dark : $light-base !default;
+$text-color                 : $dark-base !default;
+$border-color               : $lighter-base !default;
+
+/* Menu */
+$menu-text-color            : $text-color;
+$menu-background-color      : $lighter-base !default;
+$sub-menu-background-color  : $lighter-base !default;
+
+
 /* links */
 $link-color                 : $info-color !default;
-$link-color-hover           : mix(#000, $link-color, 25%) !default;
-$link-color-visited         : mix(#fff, $link-color, 25%) !default;
+$link-color-hover           : mix($base, $link-color, 25%) !default;
+$link-color-visited         : $info-color; //mix($base, $link-color, 75%) !default;
 $masthead-link-color        : $primary-color !default;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%) !default;
+$masthead-link-color-hover  : mix($base, $primary-color, 25%) !default;
 
 /* notices */
 $notice-background-mix: 90% !default;

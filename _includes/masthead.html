@@ -12,30 +12,33 @@
       {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
     </a>
 
-      <nav id="site-nav" class="greedy-nav">
+      <nav>
 
-          <ul class="menu">
-            {%- for menuitem in site.data.navigation.main -%}
-              {%- if menuitem.url -%}
-                <li class="">
-                  <a href="{{ menuitem.url | relative_url }}"{% if menuitem.description %} title="{{ menuitem.description }}"{% endif %}>{{ menuitem.title }}</a>
-                </li>
-              {%- else -%}
-                <li>
-                  <label for="drop-1" class="toggle">{{ menuitem.title }}</label>
-                  <a href="#">{{ menuitem.title }}</a>
-                  <input type="checkbox" id="drop-1"/>
-                  <ul>
-                    {%- for subitem in menuitem.subfolderitems -%}
-                      <li>
-                        <a href="{{ subitem.url | relative_url }}"{% if subitem.description %} title="{{ subitem.description }}"{% endif %}>{{ subitem.title }}</a>
-                      </li>
-                    {%- endfor -%}
-                  </ul>
-                </li>
-              {%- endif -%}
-            {%- endfor -%}
-          </ul>
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+
+        <ul class="menu">
+          {%- for menuitem in site.data.navigation.main -%}
+            {%- if menuitem.url -%}
+              <li>
+                <a href="{{ menuitem.url | relative_url }}"{% if menuitem.description %} title="{{ menuitem.description }}"{% endif %}>{{ menuitem.title }}</a>
+              </li>
+            {%- else -%}
+              <li>
+                <label for="drop-{{ forloop.index }}" class="toggle">{{ menuitem.title }}</label>
+                <a href="#">{{ menuitem.title }}</a>
+                <input type="checkbox" id="drop-{{ forloop.index }}"/>
+                <ul>
+                  {%- for subitem in menuitem.subfolderitems -%}
+                    <li>
+                      <a href="{{ subitem.url | relative_url }}"{% if subitem.description %} title="{{ subitem.description }}"{% endif %}>{{ subitem.title }}</a>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
 
       </nav>
     </div>
