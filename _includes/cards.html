@@ -1,6 +1,6 @@
 {% for card in site.cards %}
 
     {% if card.page == page.cards %}
-        {{ card }}
+        {%- include card-layouter.html layout-body=card -%}
     {% endif %}
 {% endfor %}

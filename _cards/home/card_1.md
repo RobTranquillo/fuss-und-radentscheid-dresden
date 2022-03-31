@@ -9,8 +9,10 @@
 # liegen ist irrelevant
 page: home
 
-layout:
+layout: cards/text
 title: Der Entscheid für eine klimagerechte, verkehrssichere Stadt mit hoher Lebensqualität.
+#second-background-color: true
+
 ---
 
 Für ein lebenswertes, kinderfreundliches und klimagerechtes Dresden braucht es eine bessere Infrastruktur für Radfahrende und Fußgänger:innen. Der für eine zukunftsfähige Stadt notwendige **Ausbau und die Verbesserungen erfolgen aktuell viel zu langsam und zu wenig**. Nach dem Vorbild von [über 40 deutschen Radentscheiden](https://changing-cities.org/radentscheide/) planen wir deshalb einen Bürgerentscheid, um die Stadt Dresden jetzt zum ganzheitlichen Handeln aufzufordern!
