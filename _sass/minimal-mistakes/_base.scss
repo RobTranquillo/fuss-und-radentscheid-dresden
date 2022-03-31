@@ -31,9 +31,12 @@ h6 {
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
+
+  color: $base;
 }
 
 h1 {
+  color: $text-color;
   margin-top: 0;
   font-size: $h-size-1;
 }

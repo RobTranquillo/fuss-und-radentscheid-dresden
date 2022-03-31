@@ -9,7 +9,6 @@ nav {
 	display: inline;
 	margin:0;
 	padding: 0;
-	background-color: $info-color;
 
     font-size:22px;
 	line-height: 32px;
@@ -56,24 +55,28 @@ nav ul li {
 nav a {
 	background-color: $menu-background-color;
 	color: $menu-text-color;
-	display:block;
-	padding:14px 20px;
-	font-size:17px;
-	text-decoration:none;
+	display: block;
+	padding: 14px 14px;
+	text-decoration: none;
+
+	font-family: Rubik,var(--nv-fallback-ff);
+	font-size: 1rem;
+	letter-spacing: 0px;
+	font-weight: 700;
 }
 
 nav a:hover {
-	color: $menu-text-color;
+	color: $text-second-color;
 }
 
 nav ul li ul li:hover
 {
-    background: $info-color;
+    background: $menu-hover-background-color;
 }
 
 /* Background color change on Hover */
 nav a:hover {
-	background-color: $info-color;
+	background-color: $menu-hover-background-color;
 }
 
 /* Hide Dropdowns by Default
