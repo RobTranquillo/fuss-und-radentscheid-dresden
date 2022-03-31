@@ -1,5 +1,6 @@
 <article class="archive" >
-    <div class="{% if page.second-background-color %}card-background-color{% endif %}" >
+    <div class="{% if page.second-background-color %}card-background-color{% endif %}
+                {% if page.padding-horizontal %}card-padding-horizontal{% endif %}" >
         <h2>{{ page.title }}</h2>
         {{ content }}
     </div>
