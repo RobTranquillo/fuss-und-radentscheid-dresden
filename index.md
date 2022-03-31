@@ -3,12 +3,11 @@
 layout: splash
 title: "Einfache und sichere Mobilität für alle"
 # excerpt: "hier ist eine zweite (Sub-)Überschrift möglich"
-date: 3124234324
-last_modified_at:  3213213
+
 header:
   # image: assets/images/home/header.jpg
   overlay_image: assets/images/home/header.jpg
-  overlay_filter: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3))
+  # overlay_filter: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3))
   # optional inject more css classe into the header
   classes: text-center
 

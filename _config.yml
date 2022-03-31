@@ -28,6 +28,7 @@ description         : >- # this means to ignore newlines until "baseurl:"
   wir deshalb einen Bürgerentscheid, um die Stadt Dresden jetzt zum ganzheitlichen Handeln aufzufordern!
 url                 : "https://robtranquillo.github.io" # The base hostname & protocol for your site, e.g. http://example.com
 baseurl             : "/fuss-und-radentscheid-dresden" # The subpath of your site, e.g. '/blog' (does not include the hostname).
+header-display-title: false
 
 
 # Build settings
