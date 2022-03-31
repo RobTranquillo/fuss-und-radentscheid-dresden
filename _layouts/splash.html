@@ -17,10 +17,11 @@ layout: default
 
     <section class="page__content" itemprop="text">
       {{ content }}
+
+      {% if page.cards %}
+        {% include cards.html %}
+      {% endif %}
+
     </section>
   </article>
 </div>
-
-{% if page.cards %}
-  {% include cards.html %}
-{% endif %}
