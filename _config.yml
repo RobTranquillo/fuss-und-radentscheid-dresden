@@ -30,6 +30,12 @@ url                 : "https://robtranquillo.github.io" # The base hostname & pr
 baseurl             : "/fuss-und-radentscheid-dresden" # The subpath of your site, e.g. '/blog' (does not include the hostname).
 header-display-title: false
 
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/FuRe_DD?ref_src=twsrc%5Etfw"
+
 
 # Build settings
 repository: "RobTranquillo/fuss-und-radentscheid-dresden"

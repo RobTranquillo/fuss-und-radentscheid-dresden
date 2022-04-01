@@ -4,6 +4,10 @@
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
 
+    {% unless site.atom_feed.hide %}
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endunless %}
+
     {% if site.footer.links %}
       {% for link in site.footer.links %}
         {% if link.label and link.url %}
@@ -11,11 +15,10 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-
-    {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endunless %}
   </ul>
+
+  <a href="{{ 'impress' | relative_url }}" rel="nofollow noopener noreferrer">Impressum</a>
+  <a href="{{ 'gdpr' | relative_url }}" rel="nofollow noopener noreferrer">Datenschutzerklärung</a>
 </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
