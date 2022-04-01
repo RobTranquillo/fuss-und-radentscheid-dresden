@@ -14,4 +14,6 @@ Um diesen Prozess zu planen, durchzuführen und die Umsetzung auch in Zukunft kr
 
 Wir stehen noch am Beginn einer langen Reise und freuen uns immer über neue Gesichter und Stimmen.
 
- [ JETZT MITMACHEN ](https://changing-cities.org/civicrm/?civiwp=CiviCRM&q=civicrm%2Fcontribute%2Ftransact&reset=1&id=21)
+<div class="text-center">
+    <a class="btn btn--primary" href="(https://changing-cities.org/civicrm/?civiwp=CiviCRM&q=civicrm%2Fcontribute%2Ftransact&reset=1&id=21">JETZT MITMACHEN</a>
+</div>
