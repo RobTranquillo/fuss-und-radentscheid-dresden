@@ -105,7 +105,6 @@ collections:
     output          : true # Render posts in general, not changeable because hardcoded in Jekyll.
   none:
   cards:
-  # home:
 
 # Plugin settings
 whitelist           : []
