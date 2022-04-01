@@ -14,7 +14,7 @@ main:
       url: /support/
     - title: "Mitmachen"
       url: /action/
-  - title: "Menüpunkt"
+  - title: "??Menüpunkt??"
     subfolderitems:
     - title: "Newsletter"
       url: /newsletter/
@@ -24,6 +24,10 @@ main:
     subfolderitems:
     - title: "Unsere Vision"
       url: /vision/
+    - title: "Unsere Ziele"
+      url: /goals/
+    - title: "Häufige Fragen (FAQ)"
+      url: /faq/
     - title: "Leichte Sprache"
       url: /easy-language/
     - title: "Piktogramme"
