@@ -12,7 +12,7 @@ header:
   classes: text-center
 
   image_description: "Belebter Blick vom Dresdner Rosengarten auf die Elbe und Albertbrücke"
-  caption: "Photo credit: [**FuREdd**](https://fuss-und-radentscheid-dresden.de/)"
+  caption: "Photo credit: [**FuRE-DD**](https://fuss-und-radentscheid-dresden.de/)"
   actions:
     - label: "Jetzt Mitmachen"
       url: "mitmachen"

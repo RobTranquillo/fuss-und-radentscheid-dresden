@@ -12,7 +12,7 @@ header:
   classes: text-center
 
   image_description: "Belebter Blick vom Elbradweg auf die Waldschlößchenbrücke"
-  caption: "Photo credit: [**FuREdd**](https://fuss-und-radentscheid-dresden.de/)"
+  caption: "Photo credit: [**FuRE-DD**](https://fuss-und-radentscheid-dresden.de/)"
 ---
 
 Du hast Fragen, Anregungen oder möchtest uns unterstützen?<br>Dann schreib uns doch!
