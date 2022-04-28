@@ -1,7 +1,7 @@
 ---
 permalink: /action/
 title: "Mitmachen"
-layout: splash
+layout: archive
 excerpt: ""
 last_modified_at:
 

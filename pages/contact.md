@@ -1,7 +1,7 @@
 ---
 permalink: /contact/
 title: "Kontakt"
-layout: splash
+layout: archive
 excerpt: ""
 
 header:
