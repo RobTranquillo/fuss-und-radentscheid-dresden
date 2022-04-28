@@ -2,8 +2,19 @@
 permalink: /faq/
 title: "Häufige Fragen (FAQ)"
 layout: archive
-excerpt: "Was sind die Ziele die der Fuß- und Radentscheid erreichen will."
+excerpt: ""
 last_modified_at: 2022-03-01T00:00:00-00:00
+
+header:
+  # image: assets/images/home/header.jpg
+  overlay_image: assets/images/faq/header.jpg
+  # overlay_filter: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3))
+  # optional inject more css classe into the header
+  classes: text-center
+
+  image_description: "Blick über belebten Elbradweg auf Waldschlösschenbrücke"
+  caption: "Photo credit: [**FuRE-DD**](https://fuss-und-radentscheid-dresden.de/)"
+
 ---
 
 - [Wer darf unterschreiben?](#{{ "Wer darf unterschreiben?" | slugify }})
@@ -23,10 +34,9 @@ last_modified_at: 2022-03-01T00:00:00-00:00
 - [Was nützt mir der Fuß- und Radentscheid als Autofahrer:in?](#{{ "Was nützt mir der Fuß- und Radentscheid als Autofahrer:in?" | slugify }})
 
 
+Deine Frage fehlt? Frag uns unter <a href="mailto:kontakt@fuss-und-radentscheid-dresden.de">kontakt@fuss-und-radentscheid-dresden.de</a>!
 
--------------------------
-
-
+---
 
 ## Wer darf unterschreiben?
 
@@ -101,3 +111,7 @@ Diskussionen zum Thema Verkehrsmittel- oder -flächenverteilung können schnell 
 Wir haben nichts gegen Autofahrer:innen! Wer Auto fahren möchte soll das tun und wird gute Gründe dafür haben, die wir nicht in Frage stellen. Unsere Vision ist eine einfache und sichere Mobilität für alle. Aktuell sehen sich viele Dresdner:innen gezwungen sich mit dem Auto durch die Stadt zu quetschen, sei es aus zeitlichen, finanziellen, aus Sicherheitsgründen oder einfach, weil es hier sehr stressig sein kann zu Fuß oder auf dem Rad unterwegs zu sein.
 Die von uns geforderten Maßnahmen sollen den Menschen in Dresden mehr Wahlmöglichkeiten geben. Denn diese können viele Menschen motivieren öfter zu Fuß zu gehen oder das Fahrrad zu wählen. Echte Wahlmöglichkeit zu haben steigert schließlich die Sicherheit, den Komfort und die Schnelligkeit dieser Fortbewegungsarten. Und hier der große Vorteil für Menschen, die auf das Auto angewiesen sind:
 Es ist mehr Platz auf den Straßen. Durch die gut ausgebauten, von der Fahrbahn abgetrennten Fuß- und Radwege kommt sich niemand mehr in die Quere. Alle kommen schneller, sicherer und frustfreier ans Ziel – auch die Autofahrer:innen. In Wien hat sich beispielsweise die Zeit für die Parkplatzsuche in der Innenstadt von 9 min auf 3 min reduziert. Die Gründe: Die Förderung des Fuß- und Radverkehrs, ein 365-Euro-Jahresticket für den ÖPNV und Parkraumbewirtschaftung.
+
+---
+
+Deine Frage fehlt? Frag uns unter <a href="mailto:kontakt@fuss-und-radentscheid-dresden.de">kontakt@fuss-und-radentscheid-dresden.de</a>!
