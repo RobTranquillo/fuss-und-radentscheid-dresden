@@ -6,9 +6,29 @@ excerpt: "Was sind die Ziele die der Fuß- und Radentscheid erreichen will."
 last_modified_at: 2022-03-01T00:00:00-00:00
 ---
 
+- [Wer darf unterschreiben?](#{{ "Wer darf unterschreiben?" | slugify }})
+- [Wie viele Unterschriften werden benötigt?](#{{ "Wie viele Unterschriften werden benötigt?" | slugify }})
+- [Kann ich auch Unterschriften sammeln?](#{{ "Kann ich auch Unterschriften sammeln?" | slugify }})
+- [Wieso kann ich meine Unterschrift nicht online abgeben?](#{{ "Wieso kann ich meine Unterschrift nicht online abgeben?" | slugify }})
+- [Wie kann ich das Vorhaben unterstützen?](#{{ "Wie kann ich das Vorhaben unterstützen?" | slugify }})
+- [Was sind die Forderungen des Fuß- und Radentscheid Dresden?](#{{ "Was sind die Forderungen des Fuß- und Radentscheid Dresden" | escape | slugify: "raw" }})
+- [Was ist bisher passiert?](#{{ "Was ist bisher passiert?" | slugify }})
+- [\[Nach Recherche veröffentlichen\] Warum passiert in Dresden so wenig für den Fuß- und Radverkehr?](#{{ "Nach Recherche veröffentlichen Warum passiert in Dresden so wenig für den Fuß- und Radverkehr" | slugify: "raw"  }})
+- [Was ist ein Bürgerbegehren / Bürgerentscheid?](#was-ist-ein-bürgerbegehren--bürgerentscheid)
+- [Kann die Stadt die Umsetzung der Forderungen finanzieren?](#{{ "Kann die Stadt die Umsetzung der Forderungen finanzieren?" | slugify }})
+- [Hat die Stadt überhaupt genug Personal, um die Forderungen umzusetzen?](#{{ "Hat die Stadt überhaupt genug Personal, um die Forderungen umzusetzen?" | slugify }})
+- [Wo kann ich spenden?](#{{ "Wo kann ich spenden?" | slugify }})
+- [Wofür werden Spenden eingesetzt?](#{{ "Wofür werden Spenden eingesetzt?" | slugify }})
+- [Was steckt hinter Changing Cities e.V.?](#{{ "Was steckt hinter Changing Cities e.V.?" | slugify }})
+- [Was nützt mir der Fuß- und Radentscheid als Autofahrer:in?](#{{ "Was nützt mir der Fuß- und Radentscheid als Autofahrer:in?" | slugify }})
+
+
+
+-------------------------
+
+
 
 ## Wer darf unterschreiben?
-<a href=""></a>
 
 Alle Bürger von Dresden können den Bürgerentscheid mit ihrer Unterschrift unterstützen. Als Bürger zählen laut der [Gemeindeordnung des Freistaat Sachsen](https://www.revosax.sachsen.de/vorschrift/2754-Saechsische-Gemeindeordnung#p15) wer die deutsche oder eine Staatsangehörigkeit eines anderen Mitgliedstaates der Europäischen Union besitzt, mindestens 18 Jahre alt ist und seit mindestens 3 Monaten den Hauptwohnsitz in Dresden hat.
 
@@ -41,7 +61,7 @@ Unsere vollständigen Forderungen findet ihr auf der Seite [Ziele]({{ 'goals' | 
 Begonnen haben wir im Anschluss an eine Podiumsdisskusion der Verkehrswende Dresden „Radentscheid in Dresden?! – Ein bewegter Tag mit Podiumsdiskussion und buntem Rahmenprogramm“ im September 2020. Seither tauschen wir uns regelmäßig aus und haben unsere Forderungen für ein Bürgerbegehren zum Thema Fuß- und Radverkehr in Dresden ausgearbeitet. Dafür standen wir einerseits im Kontakt mit den vielen anderen deutschlandweiten Fuß und Radentscheiden, mit Expert:innen für Fuß- und Radverkehr, mit einzelnen Lokalpolitiker:innen sowie Parteien und natürlich mit anderen lokalen Initiativen die sich für eine Verkehrswende engagieren. Um auf der sicheren Seite zu sein, erhält unser Begehen die rechtliche Prüfung einer Anwaltskanzlei.
 
 
-## `[Nach Recherche veröffentlichen`] Warum passiert in Dresden so wenig für den Fuß- und Radverkehr?
+## [Nach Recherche veröffentlichen] Warum passiert in Dresden so wenig für den Fuß- und Radverkehr?
 
 Vor allem, weil zu wenig Geld und Personal für diese wichtigen Themen bereitgestellt werden. `[Fakten`] Daher fordern wir, dass für eine bessere und schnellere Verkehrspolitik in Dresden das benötigte Geld in die Hand genommen wird und mehr attraktive Arbeitsplätze für qualifizierte Menschen geschaffen werden, die motiviert sind die Stadt voranzubringen. In unsere Forderungen können wir diese Punkte nicht aufnehmen, da das für ein Bürgerbegehren nicht zulässig wäre. `[Quelle?`] Wir glauben jedoch daran, dass unsere Forderungen von vielen Dresdner:innen unterstützt wird und wir alle gemeinsam so genügend Druck aufbauen können, um Politik und Verwaltung endlich zum Handeln zu bewegen.
 
