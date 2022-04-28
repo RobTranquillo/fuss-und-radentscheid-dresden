@@ -20,15 +20,16 @@
         <input type="checkbox" id="drop" />
 
         <ul class="menu">
-          {%- for menuitem in site.data.navigation.main -%}
-            {%- if menuitem.url -%}
-              <li>
-                <a href="{{ menuitem.url | relative_url }}"{% if menuitem.description %} title="{{ menuitem.description }}"{% endif %}>{{ menuitem.title }}</a>
-              </li>
-            {%- else -%}
+          {%- for menuitem in site.data.navigation.mainmenu -%}
               <li>
                 <label for="drop-{{ forloop.index }}" class="toggle">{{ menuitem.title }}</label>
-                <a href="#">{{ menuitem.title }}</a>
+
+                {%- if menuitem.url -%}
+                    <a href="{{ menuitem.url | relative_url }}"{% if menuitem.description %} title="{{ menuitem.description }}"{% endif %}>{{ menuitem.title }}</a>
+                {%- else -%}
+                  <a href="#">{{ menuitem.title }}</a>
+                {%- endif -%}
+
                 <input type="checkbox" id="drop-{{ forloop.index }}"/>
                 <ul>
                   {%- for subitem in menuitem.subfolderitems -%}
@@ -38,7 +39,7 @@
                   {%- endfor -%}
                 </ul>
               </li>
-            {%- endif -%}
+
           {%- endfor -%}
         </ul>
 

@@ -84,6 +84,7 @@ Mehr Informationen finden sich hier:
 
 ## Navigation
 
-Die Nav-Struktur der Kopfzeile ist hier:
+Die Einträge des Hauptmenus im Kopf der Seite werden durch die Datei `_data/navigation.yml` gesteuert.
+Konkret durch den Aufbau von *mainmenu*.
 
-`_data/navigation.yml`
+In der Datei `_includes\masthead.html` wird dieses ausgelesen und in ein Menü zusammengebaut.
