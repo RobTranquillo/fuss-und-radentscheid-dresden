@@ -11,6 +11,9 @@ page: home
 
 layout: cards/text
 
+# Position in der Reihenfolge der angezeigten Abschnitte
+position: 2
+
 title: Aktuelles
 #second-background-color: true
 ---

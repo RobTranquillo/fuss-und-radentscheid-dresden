@@ -10,6 +10,10 @@
 page: home
 
 layout: cards/contact
+
+# Position in der Reihenfolge der angezeigten Abschnitte
+position: 5
+
 title: Mitmachen
 #second-background-color: true
 ---

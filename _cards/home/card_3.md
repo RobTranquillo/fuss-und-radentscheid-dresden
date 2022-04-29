@@ -10,8 +10,11 @@
 page: home
 
 layout: cards/triptychon
-#second-background-color: true
 
+# Position in der Reihenfolge der angezeigten Abschnitte
+position: 3
+
+#second-background-color: true
 
 title: Unsere Vision
 

@@ -10,6 +10,10 @@
 page: action
 
 layout: cards/text
+
+# Position in der Reihenfolge der angezeigten Abschnitte
+position: 1
+
 title: ""
 #second-background-color: true
 

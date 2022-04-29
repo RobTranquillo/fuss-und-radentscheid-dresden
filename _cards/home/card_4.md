@@ -10,6 +10,10 @@
 page: home
 
 layout: cards/text
+
+# Position in der Reihenfolge der angezeigten Abschnitte
+position: 4
+
 title: Über uns
 second-background-color: true
 text-negativ-color: true

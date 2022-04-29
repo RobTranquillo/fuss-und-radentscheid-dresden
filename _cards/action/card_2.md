@@ -11,10 +11,12 @@ page: action
 
 layout: cards/text
 
+# Position in der Reihenfolge der angezeigten Abschnitte
+position: 2
+
 #second-background-color: true
 
 title: ""
-
 ---
 
 ### Mach uns bekannt!

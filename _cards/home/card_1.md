@@ -10,6 +10,10 @@
 page: home
 
 layout: cards/text
+
+# Position in der Reihenfolge der angezeigten Abschnitte
+position: 1
+
 title: Der Entscheid für eine klimagerechte, verkehrssichere Stadt mit hoher Lebensqualität.
 #second-background-color: true
 
