@@ -1,16 +1,16 @@
 ---
 permalink: /about/
 title: "Über uns"
-layout: splash
+layout: archive
 excerpt: ""
 
 # aller Seiteninhalt befindet sich auf leicht konfigurierbaren
 # Karten im Ordner _cards im Unterordner der mit der folgenden
 # Variable angegeben wird. Also zB. _cards/about
 cards: about
----
 
-## Über uns
+additional-header-class: font-basic-color
+---
 
 Der Fuß- und Radentscheid Dresden ist eine **parteiunabhängige Initiative** engagierter Dresdner:innen, die sich für eine **verkehrssichere Stadt mit hoher Lebensqualität** einsetzen. Zu Fuß oder mit dem Fahrrad erleben wir täglich den Zustand der vorhandenen Wege, die oft zu schmal oder in schlechtem Zustand sind. Vor allem in Begegnungsbereichen mit dem Kfz- und Lkw-Verkehr entstehen immer wieder gefährliche Situationen. Um das zu ändern gibt es deutschlandweit bereits über 40 Radentscheide, organisiert im Verein Changing Cities. Als Teil davon streben wir in Dresden einen **Bürgerentscheid** für einen besseren und sicheren Fuß- und Radverkehr an.
 
