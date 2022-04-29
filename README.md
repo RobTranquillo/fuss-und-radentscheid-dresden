@@ -88,3 +88,26 @@ Die Einträge des Hauptmenus im Kopf der Seite werden durch die Datei `_data/nav
 Konkret durch den Aufbau von *mainmenu*.
 
 In der Datei `_includes\masthead.html` wird dieses ausgelesen und in ein Menü zusammengebaut.
+
+## Erstellen einer neuen Seite bestehend aus einzelnen Karten (Cards)
+
+In unserem System können wir ein Seite aus beliebig vielen Einzeldateien, den Cards, zusammensetzen.
+Um eine neue Seite mit Karten zu erstellen gehe wie folgt vor.
+
+1) erzeuge die gewünschte neue Seite im Ordner `pages`
+1) damit die Seite für NutzerInnen erreichbar ist, sollte sie auch in der `_data/navigation.yml`verlinkt sein
+1) Im Front Matter der neuen Seite wird auf die gewünschten Karten verwiesen: `cards: Bezeichner`
+1) Achte auch darauf hier ein Seiten Layout zu verwenden, welches Cards anzeigt. ZB `layout: splash`
+1) Im ordner `_cards` wird ein neuer Ordner angelegt passend zum Bezeichner
+1) Darin liegen nun alle gewünschten Karten
+1) Damit Jekyll den neuen Ordner verwendet muss es neugestartet werden `bundle exec jekyll serve`
+1) Im Front Matter jeder Card wird auf die zugehörige page verwiesen mittels: `page: Bezeichner`
+
+## Einen neuen Kartentyp erstellen
+
+Alle verfügbaren Kartentypen sind im Verzeichnis `_layout/cards`.
+Hier muss nur eine neue Karte erzeugt werden mit dem entsprechenden Titel und mit dem gewünnschten HTML gefüllt werden.
+Am einfachsten ist evtl. einfach eine vorhandene Karte zu kopieren und zu verändern.
+
+Um auf die Daten aus dem Front Matter und dem Inhalt der Markdowndatei zu zugreifen, die auf die neue Karte verweist,
+sind wieder alle Liquid Variablen möglich. Also zB. `{{ page.title }}` oder `{{ content }}`

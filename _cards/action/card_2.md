@@ -10,6 +10,7 @@
 page: action
 
 layout: cards/text
+
 #second-background-color: true
 
 title: ""
