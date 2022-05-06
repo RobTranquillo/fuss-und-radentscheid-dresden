@@ -1,0 +1,12 @@
+<article class="archive" >
+    <blockquote class="{% if page.second-background-color %}card-background-color{% endif %}
+                {% if page.padding-horizontal %}card-padding-horizontal{% endif %}
+                {% if page.text-negativ-color %}text-negativ-color{% endif %}
+                " >
+        <span class="blockquote_icon"><i aria-hidden="true" class="fas fa-quote-right"></i></span>
+        {% if page.title and page.title != "" %}
+            <h2>{{ page.title }}</h2>
+        {% endif %}
+        {{ content }}
+    </blockquote>
+</article>

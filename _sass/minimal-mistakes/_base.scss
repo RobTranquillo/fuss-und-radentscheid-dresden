@@ -110,20 +110,28 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
+  margin: 1em 1em 2em 0;
   padding-left: 1em;
   padding-right: 1em;
-  font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  font-style: normal;
+  // border-left: 0.25em solid $primary-color;
+  background-color: $blockquote-background-color;
+  padding: 0px 20px 20px 20px;
+}
+blockquote::after {
+  height: 3px;
+  width: 60px;
+  background-color: #c9c9c9;
+  content: " ";
+  display: block;
+  margin: 0 auto 0;
+}
 
-  cite {
-    font-style: italic;
-
-    &:before {
-      content: "\2014";
-      padding-right: 5px;
-    }
-  }
+.blockquote_icon {
+  color: $primary-color;
+  margin: -5px 0px 0px -1em;
+  font-size: 30px;
+  line-height: 65px;
 }
 
 /* links */

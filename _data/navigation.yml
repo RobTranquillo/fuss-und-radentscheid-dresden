@@ -7,11 +7,12 @@ mainmenu:
       url: "/press/"
     - title: "Kontakt"
       url: "/contact/"
+  - title: "Kidical Mass"
+    url: "/kidicalmass/"
   - title: "FAQ"
     url: "/faq/"
   - title: "Mitmachen"
     url: /action/
-
 
 # alle Seiten der Webseite
 content:
