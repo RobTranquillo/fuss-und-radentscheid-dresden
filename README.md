@@ -28,13 +28,24 @@ More info:  https://jekyllrb.com/docs/installation/windows
 1) starting your live webserver with `bundle exec jekyll serve`
 1) open the page with http://127.0.0.1:4000/
 
+When the system has run successfully the first time, the last two points are then sufficient to start the server and see the page.
+
 ## Linux
 
 Die Schritte sind im Grunde die gleichen, wie bei Windows, ausgenommen die Installatin von Ruby.
 In Linux ruby 3.0.0 comes up with an error in pathutil therefore **ruby 2.7 is recomended(!)** for jekyll.
 
+### WSL
+
+Wenn Du Windows Subsystem für Linux verwendest müssen noch ein paar Pakete installiert sein.
+```
+sudo apt install openssl make gcc g++ ruby-full
+ruby --version
+```
+
 ### Fedora
 ```
+sudo dnf install openssl make gcc g++
 sudo dnf module install ruby:2.7/default
 ruby --version
 ```
@@ -42,7 +53,7 @@ ruby --version
 ### Ubuntu
 ```
 sudo apt update
-sudo apt install ruby-full
+sudo apt install openssl make gcc g++ ruby-full
 ruby --version
 ```
 
