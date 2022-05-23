@@ -21,7 +21,7 @@ More info:  https://jekyllrb.com/docs/installation/windows
 1) Enter `1,2,3` to install *MSYS2 base, MINGW development toolchain* and *update MSYS2*.
 1) Close your terminal windows and reopen it.
 1) VSCodium/VSCode (oder andere IDE) neu starten.
-1) Issue the command gem `install jekyll bundler`.
+1) Issue the command gem `gem install jekyll bundler`.
 1) After the install finished, try jekyll -v
 1) now clone this repo in a folder of choice. For example via `git clone https://github.com/RobTranquillo/fuss-und-radentscheid-dresden.git`
 1) enter the new folder and run `bundle install`
