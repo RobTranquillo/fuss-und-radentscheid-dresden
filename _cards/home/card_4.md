@@ -9,7 +9,7 @@
 # liegen ist irrelevant
 page: home
 
-layout: cards/text
+layout: cards/full-width
 
 # Position in der Reihenfolge der angezeigten Abschnitte
 position: 4

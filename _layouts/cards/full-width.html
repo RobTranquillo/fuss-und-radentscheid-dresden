@@ -1,0 +1,11 @@
+<div class="full-width {% if page.second-background-color %}card-background-color{% endif %}">
+    <article class="archive">
+        <div class="{% if page.second-background-color %}card-background-color{% endif %}
+            {% if page.padding-horizontal %}card-padding-horizontal{% endif %}
+            {% if page.text-negativ-color %}text-negativ-color{% endif %}
+            card-padding-vertical" >
+            <h2 class="card-title">{{ page.title }}</h2>
+            {{ content }}
+        </div>
+    </article>
+</div>
