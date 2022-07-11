@@ -67,3 +67,17 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+// extend minimal mistakes button
+.btn {
+	background: $base;
+	background-color: $base;
+
+	border: none;
+
+	font-weight: bold;
+	text-shadow: none;
+}
+.btn :hover, .btn--light-outline:hover {
+	background-color: $second-color;
+}

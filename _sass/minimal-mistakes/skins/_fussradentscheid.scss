@@ -8,6 +8,8 @@ $dark-base                    : mix(#000, $base, 40%) !default;
 $darker-base                  : mix(#000, $base, 60%) !default;
 $light-base                   : mix(#fff, $base, 50%) !default;
 $lighter-base                 : mix(#fff, $base, 90%) !default;
+$second-color                 : #fa5436;
+
 
 $primary-color                : $base !default;
 $success-color                : #27ae60 !default;
@@ -33,7 +35,7 @@ $blockquote-background-color  :  #ededed;
 $menu-text-color              : $base;
 $menu-background-color        : $background-color !default; //$lighter-base !default;
 // on hover
-$menu-hover-text-color        : #fa5436;
+$menu-hover-text-color        : $second-color;
 $menu-hover-background-color  : $light-base; //$lighter-base !default;
 // submenu
 $sub-menu-background-color    : $body-color !default; //$lighter-base !default;
