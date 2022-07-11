@@ -22,19 +22,23 @@
         <ul class="menu">
           {%- for menuitem in site.data.navigation.mainmenu -%}
               <li>
-                <label for="drop-{{ forloop.index }}" class="toggle">{{ menuitem.title }}</label>
+                <!--  label is used for the mobile layout !-->
+                <label for="drop-{{ forloop.index }}" class="toggle">
+                  <a class="hover-underline-animation" href="{{ menuitem.url | relative_url }}">{{ menuitem.title }}</a>
+                </label>
 
+                <!-- anchors are used in the desktop layout !-->
                 {%- if menuitem.url -%}
-                    <a href="{{ menuitem.url | relative_url }}"{% if menuitem.description %} title="{{ menuitem.description }}"{% endif %}>{{ menuitem.title }}</a>
+                    <a class="hover-underline-animation" href="{{ menuitem.url | relative_url }}"{% if menuitem.description %} title="{{ menuitem.description }}"{% endif %}>{{ menuitem.title }}</a>
                 {%- else -%}
-                  <a href="#">{{ menuitem.title }}</a>
+                  <a class="hover-underline-animation" href="#">{{ menuitem.title }}</a>
                 {%- endif -%}
 
                 <input type="checkbox" id="drop-{{ forloop.index }}"/>
                 <ul>
                   {%- for subitem in menuitem.subfolderitems -%}
                     <li>
-                      <a href="{{ subitem.url | relative_url }}"{% if subitem.description %} title="{{ subitem.description }}"{% endif %}>{{ subitem.title }}</a>
+                      <a class="hover-underline-animation" href="{{ subitem.url | relative_url }}"{% if subitem.description %} title="{{ subitem.description }}"{% endif %}>{{ subitem.title }}</a>
                     </li>
                   {%- endfor -%}
                 </ul>

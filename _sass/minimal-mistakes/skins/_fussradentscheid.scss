@@ -28,10 +28,14 @@ $footer-background-color      :  $background-color;
 $blockquote-background-color  :  #ededed;
 
 /* Menu */
+
+// default
 $menu-text-color              : $base;
-$menu-hover-text-color        : $text-second-color;
 $menu-background-color        : $background-color !default; //$lighter-base !default;
+// on hover
+$menu-hover-text-color        : #fa5436;
 $menu-hover-background-color  : $light-base; //$lighter-base !default;
+// submenu
 $sub-menu-background-color    : $body-color !default; //$lighter-base !default;
 
 

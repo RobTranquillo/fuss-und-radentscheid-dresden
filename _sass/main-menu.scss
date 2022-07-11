@@ -41,22 +41,22 @@ nav ul {
 	margin:0;
 	list-style: none;
 	position: relative;
-	}
+}
 
 /* Positioning the navigation items inline */
 nav ul li {
 	margin: 0px;
-	display:inline-block;
+	display: inline-block;
 	float: left;
+	padding: 14px 14px;
     background-color: $background-color;
-	}
+}
 
 /* Styling the links */
 nav a {
 	background-color: $menu-background-color;
 	color: $menu-text-color;
 	display: block;
-	padding: 14px 14px;
 	text-decoration: none;
 
 	font-family: Rubik,var(--nv-fallback-ff);
@@ -64,20 +64,32 @@ nav a {
 	font-size: 1rem;
 	letter-spacing: 0px;
 }
-
 nav a:hover {
-	color: $text-second-color;
+	color: $menu-hover-text-color;
+}
+.hover-underline-animation {
+	display: inline-block;
+	position: relative;
+	color: $menu-hover-text-color;
+}
+.hover-underline-animation:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 0.06rem;
+	bottom: 0;
+	left: 0;
+	background-color: $menu-hover-text-color;
+	transform-origin: bottom center;
+	transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom center;
 }
 
-nav ul li ul li:hover
-{
-    background: $menu-hover-background-color;
-}
 
-/* Background color change on Hover */
-nav a:hover {
-	background-color: $menu-hover-background-color;
-}
 
 /* Hide Dropdowns by Default
  * and giving it a position of absolute */
@@ -113,7 +125,7 @@ nav ul ul ul li {
 }
 
 
-/* Media Queries
+/* Media Queries - mobile layout
 --------------------------------------------- */
 
 @media all and (max-width : 768px) {
@@ -135,19 +147,23 @@ nav ul ul ul li {
 		margin-bottom: 0;
 	}
 
-	/* Stylinf the toggle lable */
+	/* Style the toggle label */
 	.toggle {
 		display: block;
 		color: $menu-text-color;
 		background-color: $menu-background-color;
 		padding:7px 10px;
-		font-size:17px;
+
+		font-family: Rubik,var(--nv-fallback-ff);
+		font-weight: bold;
+		font-size: 1rem;
+		letter-spacing: 0px;
 		text-decoration:none;
 		border:none;
 	}
 
 	.toggle:hover {
-		background-color: $info-color;
+		background-color: $menu-background-color;
 	}
 
 	/* Display Dropdown when clicked on Parent Lable */
@@ -172,7 +188,8 @@ nav ul ul ul li {
 
 	nav a:hover,
  	nav ul ul ul a {
-		background-color: $info-color;
+		color: $menu-hover-text-color;
+		background-color: $background-color;
 	}
 
 	nav ul li ul li .toggle,
@@ -186,7 +203,7 @@ nav ul ul ul li {
 
 	nav ul li ul li .toggle,
 	nav ul ul a {
-		background-color: mix(#fff, $sub-menu-background-color, 50%);
+		background-color: $background-color;
 	}
 
 	/* Hide Dropdowns by Default */
@@ -203,7 +220,7 @@ nav ul ul ul li {
 		display: none;
 	}
 
-	/* Fisrt Tier Dropdown */
+	/* first tier dropdown */
 	nav ul ul li {
 		display: block;
 		width: 100%;
