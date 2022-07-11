@@ -2,11 +2,11 @@
 mainmenu:
   - title: "Über uns"
     url: "/about/"
-    subfolderitems:
-    - title: "Presse"
-      url: "/press/"
-    - title: "Kontakt"
-      url: "/contact/"
+#    subfolderitems:
+#    - title: "Presse"
+#      url: "/press/"
+#    - title: "Kontakt"
+#      url: "/contact/"
   - title: "Kidical Mass"
     url: "/kidicalmass/"
   - title: "FAQ"
