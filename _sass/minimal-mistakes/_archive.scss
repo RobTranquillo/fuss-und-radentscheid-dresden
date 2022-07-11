@@ -4,14 +4,27 @@
 
 .archive {
 
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  width: $archive-width-medium;
+
+
   @include breakpoint($large) {
-    width: $archive-width;
-    margin-left: auto;
-    margin-right: auto;
+    width: $archive-width-large;
+    padding-left: 2rem;
+    padding-rigth: 2rem;
   }
 
   @include breakpoint($x-large) {
+    width: $archive-width-xlarge;
+    padding-left: 1rem;
+    padding-rigth: 1rem;
   }
+
 }
 
 .archive__item {
